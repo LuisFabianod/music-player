@@ -66,7 +66,7 @@ window.musics = [
         imageSrc:"./music-images/deadPresidentsIcon.png",
     },
     {
-        name: "FOTO COM A MÃO NA CARA",
+        name: `FOTO COM A MÃO NA CARA`,
         artist: "tchelo rodrigues",
         audioSrc: "./audios/fotocomamaonacara.mp3",
         imageSrc:"./music-images/fotoComAMaoNaCaraIcon.png",

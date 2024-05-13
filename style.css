@@ -57,6 +57,7 @@ body{
 .spotify > img {
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 .p-order{
     height: 10%;
@@ -89,9 +90,21 @@ body{
 .nav .previous, .next{
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 .nav .play-pause{
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 
+
+@keyframes Spin {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+    
+}
