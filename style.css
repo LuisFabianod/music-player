@@ -1,3 +1,13 @@
+@font-face {
+    font-family: HintRegular;
+    src: url(fonts/Hind-Regular.ttf);
+}
+@font-face {
+    font-family: HintBold;
+    src: url(fonts/Hind-Bold.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +15,7 @@
 }
 html, body{
     height: 100vh;
+    color: white;
 }
 
 body{
@@ -14,12 +25,13 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgb(10, 10, 10);
+    font-family:   HintRegular;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     justify-content: center;
     width: 400px;
@@ -27,4 +39,59 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.158);
+    background-color: black;
+    gap: 20px;
+
 }
+
+.spotify{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 6%;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.spotify > img {
+    width: 30px;
+    height: 30px;
+}
+.p-order{
+    height: 10%;
+}
+
+.div-music-img > img{
+    width: 178px;
+    height: 169px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0px 6px 5px white;
+}
+
+.music-name{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: HintBold;
+}
+.music-artist{
+    color: rgb(206, 206, 206);
+    margin-bottom: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.nav .previous, .next{
+    height: 30px;
+    width: 30px;
+}
+.nav .play-pause{
+    height: 40px;
+    width: 40px;
+}
+
