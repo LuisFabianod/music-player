@@ -24,7 +24,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(4, 4, 4);
     font-family:   HintRegular;
 }
 
@@ -38,7 +38,7 @@ body{
     height: 664px;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.158);
+    box-shadow: 20px 20px 50px -10px rgba(255, 255, 255, 0.068);
     background-color: black;
     gap: 20px;
 
@@ -64,21 +64,39 @@ body{
 }
 
 .div-music-img > img{
-    width: 178px;
-    height: 169px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     border: 1px solid white;
     box-shadow: 0px 6px 5px white;
 }
 
 .music-name{
-    margin-top: 10px;
+    
     font-size: 30px;
     font-family: HintBold;
 }
 .music-artist{
     color: rgb(206, 206, 206);
-    margin-bottom: 10px;
+    
+}
+.div-seekbar-music-time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.div-seekbar-volume{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transform: translateX(-11px);
+}
+
+.volume-icon{
+    width: 17px;
+    height: 17px;
 }
 
 .nav{
@@ -97,6 +115,7 @@ body{
     width: 40px;
     cursor: pointer;
 }
+
 
 
 @keyframes Spin {
