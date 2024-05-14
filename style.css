@@ -41,7 +41,7 @@ body{
     box-shadow: 20px 20px 50px -10px rgba(255, 255, 255, 0.068);
     background-color: black;
     gap: 20px;
-
+    animation: fade 1s ;
 }
 
 .spotify{
@@ -118,7 +118,14 @@ body{
     cursor: pointer;
 }
 
-
+@keyframes fade {
+    from{
+        transform: translateY(-100px);
+    }
+    to{     
+        transform: translateY(0px);
+    }
+}
 
 @keyframes Spin {
     from{
